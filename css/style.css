@@ -1,0 +1,57 @@
+header{
+    height: 80px;
+    background-color: aqua;
+
+}
+.div-1{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+.div1-2{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    height: 100%;
+}
+.logo{
+    font-size: 40px;
+    color: rgb(152, 0, 183);
+}
+nav{
+    width: 500px;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li a {
+    color: rgb(152, 0, 183);
+    font-size: 20px;
+}
+.fa-bars{
+    font-size: 25px;
+    display: none;
+
+}
+/*section*/
+
+.sec-1{
+    background-color: rgb(152, 0, 183);
+    height: 800px;
+    padding: 50px;
+}
+.div2-1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.card{
+    width: 300px;
+}
+.card img{
+    width: 100%;
+}
