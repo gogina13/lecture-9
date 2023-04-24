@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 23 version
+*/
+
 header{
     height: 80px;
     background-color: aqua;
@@ -9,9 +16,18 @@ header{
     margin: 0 auto;
 }
 .div1-2{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    justify-content:space-between ;
-    align-items: center;
+    -webkit-box-pack:justify;
+    -webkit-justify-content:space-between ;
+        -ms-flex-pack:justify;
+            justify-content:space-between ;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 100%;
 }
 .logo{
@@ -23,9 +39,18 @@ nav{
     
 }
 ul{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 li a {
     color: rgb(152, 0, 183);
@@ -40,13 +65,22 @@ li a {
 
 .sec-1{
     background-color: rgb(152, 0, 183);
-    height: 800px;
+    height: 1150px;
     padding: 50px;
 }
+
 .div2-1{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
     gap: 15px;
 }
 .card{
@@ -54,4 +88,7 @@ li a {
 }
 .card img{
     width: 100%;
+}
+.img-4{
+    height: 170px;
 }
